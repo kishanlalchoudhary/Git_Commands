@@ -6,15 +6,9 @@ This repository contains a detailed guide on essential Git commands. It serves a
 
 The purpose of this repository is to provide developers with clear documentation and guidance on using Git effectively. Whether you're new to version control or looking to enhance your Git skills, this guide aims to simplify your learning process.
 
-## Contents
-
-- Detailed explanations of fundamental Git commands.
-- Best practices for managing branches, commits, and repositories.
-- Tips for effective collaboration and remote repository management.
-
 ## Usage
 
-Feel free to explore the various sections of this documentation to improve your Git proficiency. Each command and practice is explained concisely to help you navigate and utilize Git for your projects.
+Feel free to explore the various sections of the documentation to improve your Git proficiency. Each command is explained concisely to help you navigate and utilize Git for your projects.
 
 ## Contributing
 
