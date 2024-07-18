@@ -1,6 +1,6 @@
-# Git Commands and Practices Documentation
+# Git Commands
 
-This repository contains a detailed guide on essential Git commands and best practices. It serves as a comprehensive reference for mastering Git and improving collaboration workflows.
+This repository contains a detailed guide on essential Git commands. It serves as a comprehensive reference for mastering Git and improving collaboration workflows.
 
 ## Purpose
 
