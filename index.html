@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Commands and Practices Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Git Commands and Practices Documentation</h1>
+
+    <h2>Initializing a Repository</h2>
+
+    <h3><code>git init</code></h3>
+    <p>Initialize a new Git repository.</p>
+
+    <h2>Staging Changes</h2>
+
+    <h3><code>git add</code></h3>
+    <p>Stage changes for the next commit.</p>
+    <ul>
+        <li><code>git add .</code> - Stage all changes.</li>
+        <li><code>git add &lt;filename.txt&gt;</code> - Stage changes for a specific file.</li>
+        <li><code>git add &lt;filename1.txt&gt; &lt;filename2.txt&gt;</code> - Stage changes for multiple files.</li>
+        <li><code>git add subfolder/</code> - Stage changes for all files in a specific subfolder.</li>
+    </ul>
+
+    <h2>Committing Changes</h2>
+
+    <h3><code>git commit -m "message"</code></h3>
+    <p>Commit staged changes with a descriptive message.</p>
+
+    <h2>Viewing Repository Status</h2>
+
+    <h3><code>git status</code></h3>
+    <p>Check the status of files in the repository (staged, unstaged, etc).</p>
+
+    <h2>Viewing Commit History</h2>
+
+    <h3><code>git log</code></h3>
+    <p>View details of all commits.</p>
+    <ul>
+        <li><strong>Navigating Commits</strong></li>
+        <li><code>git checkout &lt;id&gt;</code> - Move to a specific commit temporarily.</li>
+        <li><code>git checkout main</code> - Move back to the main branch.</li>
+    </ul>
+
+    <h2>Reverting Changes</h2>
+
+    <h3><code>git revert &lt;id&gt;</code></h3>
+    <p>Create a new commit to revert changes made in a specific commit.</p>
+
+    <h2>Exiting Vim Editor</h2>
+
+    <ul>
+        <li><code>:wq</code> - Save and exit Vim.</li>
+        <li><code>q</code> - Exit the log.</li>
+        <li><code>i</code> - Insert in Vim editor.</li>
+    </ul>
+
+    <h2>Resetting Changes</h2>
+
+    <h3><code>git reset --hard &lt;id&gt;</code></h3>
+    <p>Undo changes by deleting commits since &lt;id&gt; (caution: changes history).</p>
+
+    <h2>Ignoring Files</h2>
+
+    <h3><code>.gitignore</code></h3>
+    <p>Specify files and folders to ignore.</p>
+
+    <h2>Branching</h2>
+
+    <h3>Creating and Managing Branches</h3>
+    <ul>
+        <li><code>git branch &lt;name&gt;</code> - Create a new branch.</li>
+        <li><code>git branch</code> - List all branches.</li>
+        <li><code>git checkout &lt;branchName&gt;</code> - Switch to another branch.</li>
+        <li><code>git checkout -b &lt;branchName&gt;</code> - Create and switch to a new branch.</li>
+    </ul>
+
+    <h3>Merging Branches</h3>
+    <ul>
+        <li><code>git merge &lt;name&gt;</code> - Merge branches.</li>
+    </ul>
+
+    <h3>Deleting Branches</h3>
+    <ul>
+        <li><code>git branch -D &lt;branchName&gt;</code> - Delete a branch.</li>
+    </ul>
+
+    <h2>Remote Repository Management</h2>
+
+    <h3>Connecting to a Remote</h3>
+    <ul>
+        <li><code>git remote add origin &lt;url&gt;</code> - Link local repository to a remote repository.</li>
+        <li><code>git remote</code> - List all connected remote repositories.</li>
+        <li><code>git remote get-url &lt;origin&gt;</code> - Get the URL of a remote repository.</li>
+    </ul>
+
+    <h3>Pushing Changes</h3>
+    <ul>
+        <li><code>git push origin main</code> - Push commits from local main branch to remote main branch.</li>
+        <li><code>git push --set-upstream origin master</code> - Set upstream and push directly afterwards.</li>
+    </ul>
+
+    <h3>Pulling Changes</h3>
+    <ul>
+        <li><code>git pull</code> - Pull changes from the remote repository.</li>
+    </ul>
+
+    <h2>Configuration</h2>
+
+    <h3>Setting User Information</h3>
+    <ul>
+        <li><code>git config --global user.name "Username"</code></li>
+        <li><code>git config --global user.email "Email"</code></li>
+    </ul>
+
+    <h2>Cloning a Repository</h2>
+
+    <h3><code>git clone &lt;url&gt;</code></h3>
+    <p>Clone a remote repository to the local machine.</p>
+
+    <h2>Collaboration and Workflow</h2>
+    <ul>
+        <li>Add team members as collaborators to allow direct code changes.</li>
+        <li>Enable branch protection on the main branch to require pull requests for changes.</li>
+    </ul>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/kishanlalchoudhary">Kishanlal Choudhary</a></p>
+    </footer>
+</body>
+</html>
